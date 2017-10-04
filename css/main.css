@@ -13,24 +13,32 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   transition: all .3s linear;
+  position: absolute;
 }
 
 .polaroid:nth-child(1) {
   transform: rotate(-10deg);
+  top: 33%;
+  left: 20%;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(8deg);
+  z-index: 1000;
+  top: 40%;
+  left: 30%;
 }
 
 .polaroid:nth-child(3) {
   transform: rotate(25deg);
+  top: 34%;
+  left: 40%;
 }
-
 
 .polaroid:hover {
   transform: rotate(0deg);
   box-shadow: 4px 10px 20px rgba(0, 0, 0, .7);
+  z-index: 1000;
 }
 
 .polaroid > img {
