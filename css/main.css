@@ -19,20 +19,20 @@ html {
 .polaroid:nth-child(1) {
   transform: rotate(-10deg);
   top: 6em;
-  left: 21em;
+  left: 13em;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(7deg);
   z-index: 800;
   top: 9em;
-  left: 26em;
+  left: 18em;
 }
 
 .polaroid:nth-child(3) {
   transform: rotate(30deg);
   top: 6em;
-  left: 33em;
+  left: 25em;
 }
 
 .polaroid:hover {
